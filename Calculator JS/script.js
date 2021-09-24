@@ -56,6 +56,7 @@ buttons.forEach((button) => {
             equation.innerText = "";
             ans.innerText = "";
             check = false;
+            check_1 = true;
         }
 
           else {
