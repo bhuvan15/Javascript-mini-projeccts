@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Muli", sans-serif;
+    background-color: rgb(33, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.container {
+    background-color: #000;
+    height: 700px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: -1px 8px 16px 0px rgba(0,0,0,0.77);
+}
+
+/* Display */
+
+.display {
+    height: 25%;
+}
+.equation-text {
+    font-size: 34px;
+    text-align: right;
+    padding: 25px 35px;
+    
+}
+.ans-text {
+    text-align: right;
+    padding: 25px 35px 20px;
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+/* Modes */
+.modes {
+    height: 10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-icons {
+    padding-left: 25px;
+}
+.left-icons i{
+    margin: 15px;
+}
+.modes i {
+    font-size: 20px;
+    opacity: 0.5;
+}
+.modes i:hover {
+    cursor: pointer;
+}
+.right-icons i{
+    color: rgb(39, 240, 39);
+}
+
+/* Line */
+.bottom-line {
+    margin: 10px auto;
+    width: 90%;
+    height: 0.9px;
+    background-color: rgb(43, 43, 43);
+}
+
+
+.keyboard {
+    width: 100%;
+    margin: 10px 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(5, 75px);
+    grid-gap: 13px;
+    
+}
+/* Buttons */
+.buttons {
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid rgb(53, 53, 53);
+    
+
+    
+}
+.buttons p {
+    font-size: 32px;
+}
+.buttons:hover {
+    cursor: pointer;
+}
+
+.clear-btn {
+    color: orangered;
+}
+.operator {
+    color: rgb(7, 160, 7);
+}
+#equal p{
+    font-size: 44px;
+    }
+#equal {
+    background-color: rgb(7, 160, 7);
+}

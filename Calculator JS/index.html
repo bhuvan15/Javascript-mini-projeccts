@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <div class="equation">
+                <p class="equation-text">
+                    9 * 9
+                </p>
+            </div>
+            <div class="ans-display">
+                <p class="ans-text">
+                    81
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="modes">
+            <div class="left-icons">
+                <i class="far fa-clock upper-icons"></i>
+                <i class="fas fa-weight upper-icons"></i>
+            </div>
+            <div class="right-icons">
+                <i class="fas fa-backspace upper-icons delete" data-value="backspace"></i>
+            </div>
+            
+        </div>
+
+
+
+        <div class="bottom-line">
+
+        </div>
+
+
+
+        <div class="keyboard">
+            <div class="buttons clear-btn" data-value="clear">
+                <p>C</p>
+            </div>
+            <div class="buttons operator" data-value="brackets">
+                <p>()</p>
+            </div>
+            <div class="buttons operator" data-value="%">
+                <p>%</p>
+            </div>
+            <div class="buttons operator" data-value="/">
+                <p>/</p>
+            </div>
+            <div class="buttons number" data-value="7">
+                <p>7</p>
+            </div>
+            <div class="buttons number" data-value="8">
+                <p>8</p>
+            </div>
+            <div class="buttons number" data-value="9">
+                <p>9</p>
+            </div>
+            <div class="buttons operator" data-value="*">
+                <p>*</p>
+            </div>
+            <div class="buttons number" data-value="4">
+                <p>4</p>
+            </div>
+            <div class="buttons number" data-value="5">
+                <p>5</p>
+            </div>
+            <div class="buttons number" data-value="6">
+                <p>6</p>
+            </div>
+            <div class="buttons operator" data-value="-">
+                <p>-</p>
+            </div>
+            <div class="buttons number" data-value="1">
+                <p>1</p>
+            </div>
+            <div class="buttons number" data-value="2">
+                <p>2</p>
+            </div>
+            <div class="buttons number" data-value="3">
+                <p>3</p>
+            </div>
+            <div class="buttons operator" data-value="+">
+                <p>+</p>
+            </div>
+            <div class="buttons number">
+                <p>+/-</p>
+            </div>
+            <div class="buttons number" data-value="3">
+                <p>0</p>
+            </div>
+            <div class="buttons number" data-value="3">
+                <p>.</p>
+            </div>
+            <div class="buttons equal" id="equal" data-value="=">
+                <p>=</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
